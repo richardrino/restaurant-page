@@ -1,0 +1,95 @@
+.navbar {
+	background-color: rgb(23, 30, 49);
+}
+
+.nav-list {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	gap: 1.5rem;
+	height: 80px;
+	margin-right: 1rem;
+	color: white;
+	font-size: 0.875;
+	list-style: none;
+}
+
+.section-hero {
+	display: flex;
+	flex-direction: column-reverse;
+	width: 100%;
+}
+
+.hero-img {
+	height: 40vh;
+	width: 100%;
+	background-image: url(/src/restaurant-interior.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 50px;
+}
+
+.hero-text-container {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+	width: 100%;
+	background-color: rgb(14, 18, 30);
+	padding: 2rem 1rem 2rem;
+}
+
+.hero-heading {
+	text-align: end;
+	text-transform: uppercase;
+	font-size: 1.875rem;
+	font-weight: 100;
+	letter-spacing: 0.25rem;
+}
+
+.hero-text {
+	color: white;
+	text-align: end;
+	font-size: 1.125rem;
+}
+
+
+.clr-white {
+	color: white;
+}
+
+.section-subscribe {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+	padding: 2rem;
+}
+
+.signup-form {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 100%;
+}
+
+.signup-form input {
+	width: 100%;
+	padding-block: 0.625rem;
+	border-inline: none;
+	border-top: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+}
+
+.signup-form button {
+	padding-block: 0.625em;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 2px solid black;
+}
+
+.footer {
+	width: 100;
+	height: 100px;
+	background-color: rgb(23, 30, 49);
+}
