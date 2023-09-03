@@ -93,3 +93,37 @@
 	height: 100px;
 	background-color: rgb(23, 30, 49);
 }
+
+
+
+.section-menu {
+	display: flex;
+	flex-direction: column;
+	padding-inline: 1rem;
+	padding-bottom: 2rem;
+	gap: 2rem;
+}
+
+.menu-img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	margin-top: 3.125rem;
+	background-color: pink;
+	background: url(/src/assets/images/plated-food.jpeg) no-repeat center center;
+	background-size: cover;
+}
+
+.menu-heading {
+	font-weight: 100;
+	color: rgb(165, 165, 165);
+	text-transform: uppercase;	
+}
+
+.submenu-heading {
+	font-size: 1rem;
+}
+
+.wine-heading {
+	margin-top: 1rem;
+}
